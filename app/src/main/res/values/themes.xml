@@ -1,6 +1,6 @@
 <resources>
     <!-- Base application theme. -->
-    <style name="Theme.StyleThemeAp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.StyleThemeApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryLightColor</item>
@@ -13,4 +13,21 @@
         <item name="android:statusBarColor">@color/primaryDarkColor</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="TextViewCustom" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/colorPrimaryDarkBlue</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">@dimen/editTextHeight</item>
+    </style>
+
+    <style name="ButtonCustom" parent="android:style/Widget.Button">
+        <item name="android:backgroundTint">@color/colorPrimaryDarkBlue</item>
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+    </style>
+
 </resources>
