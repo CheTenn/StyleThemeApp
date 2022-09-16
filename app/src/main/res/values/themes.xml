@@ -15,19 +15,19 @@
     </style>
 
     <style name="TextViewCustom" parent="android:style/Widget.EditText">
-        <item name="android:background">@color/colorPrimaryDarkBlue</item>
+        <item name="android:background">@color/primaryColorBlue</item>
         <item name="android:textColor">@color/secondaryTextColor</item>
         <item name="android:padding">@dimen/editTextPadding</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editTextHeight</item>
     </style>
 
-    <style name="ButtonCustom" parent="android:style/Widget.Button">
-        <item name="android:backgroundTint">@color/colorPrimaryDarkBlue</item>
+    <style name="TextViewCustom2" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/primaryColorPurple</item>
         <item name="android:textColor">@color/secondaryTextColor</item>
         <item name="android:padding">@dimen/editTextPadding</item>
-        <item name="android:layout_width">@dimen/buttonWidth</item>
-        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">@dimen/editTextHeight</item>
     </style>
 
 </resources>

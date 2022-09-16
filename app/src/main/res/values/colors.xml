@@ -9,9 +9,8 @@
     <color name="primaryTextColor">#ffffff</color>
     <color name="secondaryTextColor">#ffffff</color>
 
-    <!-- Custom Blue Theme -->
-    <color name="colorPrimaryBlue">#00A9F4</color>
-    <color name="colorPrimaryDarkBlue">#007AC1</color>
-    <color name="colorAccentBlue">#67DAFF</color>
-    <color name="colorBackground">#EEEEEE</color>
+    <color name="primaryColorBlue">#01579b</color>
+    <color name="primaryColorPurple">#6a1b9a</color>
+
+
 </resources>

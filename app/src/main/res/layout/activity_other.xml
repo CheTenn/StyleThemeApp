@@ -25,13 +25,26 @@
             android:text="Aditya Gupta"
             android:textAlignment="center" />
 
+        <TextView
+            style="@style/TextViewCustom2"
+            android:id="@+id/Karandikar"
+            android:text="Chethan Karandikar"
+            android:textAlignment="center" />
 
-        <Button
-            style="@style/ButtonCustom"
-            android:id="@+id/GuptaButton"
-            android:text="Button" />
 
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/chesswin" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
