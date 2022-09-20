@@ -28,6 +28,7 @@
         <TextView
             style="@style/TextViewCustom2"
             android:id="@+id/Karandikar"
+            android:fontFamily="cursive"
             android:text="Chethan Karandikar"
             android:textAlignment="center" />
 
