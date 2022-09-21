@@ -17,19 +17,20 @@
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" />
+        app:layout_constraintVertical_bias="0.163" />
 
     <TextView
         android:id="@+id/nameTV"
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
+        android:gravity="bottom"
         android:paddingTop="@dimen/topPadding"
         android:text="First Name: "
-        android:textSize="20sp"
 
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.238"
@@ -41,15 +42,15 @@
         android:id="@+id/button"
         android:layout_width="@dimen/buttonWidth"
         android:layout_height="@dimen/buttonHeight"
-        android:text="Click Me"
         android:onClick="setReversedName"
+        android:text="Click Me"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.306" />
+        app:layout_constraintVertical_bias="0.344" />
 
     <TextView
         android:id="@+id/nameBackwards"
@@ -57,19 +58,20 @@
         android:layout_height="@dimen/textViewHeight"
         android:paddingTop="@dimen/topPadding"
         android:text="Name Backwards:"
+        android:gravity="bottom"
         android:textSize="20sp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintHorizontal_bias="0.236"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.236" />
+        app:layout_constraintVertical_bias="0.262" />
 
     <Button
         android:id="@+id/switchpages"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
         android:text="Next"
         android:onClick="switchPages"
 
